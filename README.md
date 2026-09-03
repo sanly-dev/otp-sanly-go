@@ -33,7 +33,7 @@ func main() {
 	sent, err := client.SendOtp(context.Background(), otpsanly.SendOtpParams{
 		Phone:   "+99361234567", // Turkmenistan numbers only for SMS. Use Email instead for worldwide delivery.
 		Project: "My App",
-		Lang:    "ru", // "tk" | "ru" | "en" — which language to send the OTP in
+		Lang:    "ru", // "tm" | "ru" | "en" — which language to send the OTP in
 	})
 	if err != nil {
 		panic(err)
