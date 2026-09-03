@@ -56,10 +56,10 @@ type SendOtpParams struct {
 	Email string
 	// Project is a free-text label shown in your dashboard/webhooks.
 	Project string
-	// Lang selects which language to send the OTP in: "tk" | "ru" | "en".
+	// Lang selects which language to send the OTP in: "tm" | "ru" | "en".
 	// Since this SDK calls the API server-to-server, the Accept-Language
 	// header is unreliable — always set Lang explicitly if you support
-	// multiple languages for your end users. Defaults to "tk" if empty.
+	// multiple languages for your end users. Defaults to "tm" if empty.
 	Lang string
 }
 
